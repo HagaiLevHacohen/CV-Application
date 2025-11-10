@@ -1,6 +1,7 @@
 import GeneralInfo from "./GeneralInfo";
-import Education from "./Education"
-import Experience from "./Experience"
+import Education from "./Education";
+import Experience from "./Experience";
+import "../styles/Form.css"
 
 
 
@@ -9,7 +10,7 @@ function Form({cvData, onChange, onSubmit}) {
 
 
   return (
-    <form onSubmit={onSubmit}>
+    <form class="form" onSubmit={onSubmit}>
         <GeneralInfo cvData={cvData} onChange={onChange}></GeneralInfo>
         <Education cvData={cvData} onChange={onChange}></Education>
         <Experience cvData={cvData} onChange={onChange}></Experience>

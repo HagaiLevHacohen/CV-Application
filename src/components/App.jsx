@@ -40,7 +40,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div class="form-container">
       {showForm ? (
         <Form cvData={cvData} onChange={handleChange} onSubmit={handleSubmit} />
       ) : (

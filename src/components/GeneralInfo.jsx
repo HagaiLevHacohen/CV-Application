@@ -1,3 +1,5 @@
+import "../styles/GeneralInfo.css";
+
 function GeneralInfo({cvData, onChange}) {
 
 
