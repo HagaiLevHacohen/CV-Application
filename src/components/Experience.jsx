@@ -6,13 +6,13 @@ function Experience({cvData, onChange}) {
     <section className="experience-info">
         <h2>Work Experience Information</h2>
 
-        <label htmlFor="input-company-name">Company name:</label>
+        <label htmlFor="input-company-name">Company Name:</label>
         <input id="input-company-name" name="companyName" type="text" value={cvData.companyName} onChange={onChange}/>
 
-        <label htmlFor="input-position-title">Position title:</label>
+        <label htmlFor="input-position-title">Position Title:</label>
         <input id="input-position-title" name="positionTitle" type="text" value={cvData.positionTitle} onChange={onChange}/>
 
-        <label htmlFor="input-responsibilities">Main responsibilities of your jobs:</label>
+        <label htmlFor="input-responsibilities">Main Responsibilities of your Work:</label>
         <textarea id="input-responsibilities" name="responsibilities" value={cvData.responsibilities} onChange={onChange}/>
 
         <div className="experience-start-date">
