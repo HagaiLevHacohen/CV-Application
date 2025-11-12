@@ -11,6 +11,7 @@ function App() {
     phone: '',
     address: '',
     schoolName: '',
+    studyTitle: '',
     educationStartDate: '',
     educationEndDate: '',
     companyName: '',
@@ -18,7 +19,6 @@ function App() {
     responsibilities: '',
     experienceStartDate: '',
     experienceEndDate: '',
-    experience: '',
   })
 
   // Controls which view is shown
