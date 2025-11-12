@@ -1,47 +1,45 @@
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: min(500px, 100%);
-    padding: 10px;
-    border: 3px solid rgb(140, 0, 255);
-    border-radius: 10px;
-
+  width: min(500px, 100%);
+  padding: 10px;
+  border: 3px solid rgb(140, 0, 255);
+  border-radius: 10px;
 }
 
 .form h2 {
-    text-align: center;
-    margin: 10px 0px;
+  text-align: center;
+  margin: 10px 0px;
 }
 
 .form section:not(:last-of-type) {
-    padding-bottom: 20px;
-    border-bottom: 2px solid green;
+  padding-bottom: 20px;
+  border-bottom: 2px solid green;
 }
 
 .form > button {
-    align-self: center;
-    margin-top: 20px;
+  align-self: center;
+  margin-top: 20px;
 }
-
 
 .form input,
 .form textarea {
-    background-color: #f8f8f8;
-    color: #222;
-    border: 1px solid #999;
-    border-radius: 5px;
-    padding-left: 5px;
+  background-color: #f8f8f8;
+  color: #222;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding-left: 5px;
 }
 
 .form textarea {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .form input {
-    height: 25px;
+  height: 25px;
 }
 
 .form input[type="date"] {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }

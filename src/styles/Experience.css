@@ -1,38 +1,34 @@
 .experience-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
 }
 
-.experience-info  > h2 {
-    grid-column: 1 / 5;
+.experience-info > h2 {
+  grid-column: 1 / 5;
 }
 
-.experience-info  > label {
-    grid-column: 1 / 2;
+.experience-info > label {
+  grid-column: 1 / 2;
 }
 
-.experience-info  > input,
-.experience-info  > textarea {
-    grid-column: 2 / 5;
+.experience-info > input,
+.experience-info > textarea {
+  grid-column: 2 / 5;
 }
-
 
 .experience-info > textarea {
   resize: vertical; /* allow vertical resizing only */
 }
 
-
-.experience-info  > .experience-start-date {
-    justify-self: center;
-    grid-column: 1 / 3;
-
+.experience-info > .experience-start-date {
+  justify-self: center;
+  grid-column: 1 / 3;
 }
-.experience-info  > .experience-end-date {
-    justify-self: center;
-    grid-column: 3 / 5;
-
+.experience-info > .experience-end-date {
+  justify-self: center;
+  grid-column: 3 / 5;
 }
 .experience-info input[type="date"] {
-    margin-left: 10px;
+  margin-left: 10px;
 }

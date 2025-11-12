@@ -1,54 +1,61 @@
 .cv {
-    display: flex;
-    width: 800px;
-    border: 2px solid black;
+  display: flex;
+  width: 800px;
+  border: 2px solid black;
 }
 
 .cv > section > div {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .cv > .cv-general-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: rgb(0, 75, 128);
-    color: white;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(0, 75, 128);
+  color: white;
+  padding: 20px;
 }
 
 .cv > .cv-general-info > h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .cv > .cv-info {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .cv > .cv-info h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .cv > .cv-info > button {
-    align-self: center;
+  align-self: center;
 }
 
 .cv section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .cv section div {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .cv section div > p:first-child {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+/* Styles for screens 800px and narrower */
+@media (max-width: 800px) {
+  .cv {
+    flex-direction: column;
+  }
 }
